@@ -41,13 +41,16 @@ console.log(Tempmessage);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+
 const currentTime = new Date();
 const hours = currentTime.getHours().toString().padStart(2, '0');
 const minutes = currentTime.getMinutes().toString().padStart(2, '0');
 const formattedTime = `${hours}:${minutes}`;
 console.log(formattedTime)
 
+let currentHour = formattedTime; 
+let currentHourmessage = formattedTime >= 24 ? "Unleash the beast" : "Bettter Stick to water."
+console.log(currentHourmessage)
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
 // Otherwise, print "Better stick to water."
