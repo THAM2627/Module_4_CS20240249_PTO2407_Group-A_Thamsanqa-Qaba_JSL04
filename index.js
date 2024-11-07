@@ -22,7 +22,7 @@ console.log(message);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-heartRate <=100 ? "Boost needed!" : "Energy levels are high!"
+let HRmessage = heartRate <=100 ? "Boost needed!" : "Energy levels are high!"
 console.log(`'}`);
 
 
@@ -41,7 +41,7 @@ console.log(Tempmessage);
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+let currentHour = 24; 
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
