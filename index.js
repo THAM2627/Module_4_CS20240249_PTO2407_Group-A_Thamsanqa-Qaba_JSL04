@@ -49,7 +49,7 @@ const formattedTime = `${hours}:${minutes}`;
 console.log(formattedTime)
 
 let currentHour = formattedTime; 
-let currentHourmessage = formattedTime >= 7 ? "Unleash the beast" : "Bettter Stick to water."
+let currentHourmessage = formattedTime <= 11 ? "Unleash the beast" : "Bettter Stick to water."
 console.log(currentHourmessage)
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
